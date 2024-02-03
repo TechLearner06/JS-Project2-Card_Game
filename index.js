@@ -15,23 +15,6 @@ let cards=document.querySelector("#cards-el")
 
 let result=document.querySelector("#sum-el")
 
-// OBJECTS - DATATYPE
-
-//methods -simply functions that are attached to objects
-
-//player details
-let player={
-    Name:"me",
-    Chips:10,
-    sayHello:function(){
-        console.log("helloii")
-    }
-}
-player.sayHello()
-// calling it will be like the objectname.thekeyname
-
-let playerEl=document.getElementById("player-el")
-playerEl.textContent=player.Name + ":" + "$" +  player.Chips
 
 function getRandomNumber(){
 
